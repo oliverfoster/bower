@@ -2,9 +2,15 @@
   "name": "bower",
   "version": "0.1.1",
   "description": "Bower",
+  "scripts": {
+    "start": "node index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/oliverfoster/bower.git"
+  },
+  "engines": {
+    "node": "4.3.1"
   },
   "main": "index.js",
   "license": "GPL-3.0",
